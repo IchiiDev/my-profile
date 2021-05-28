@@ -22,6 +22,7 @@ const config = {
     SOCIALS: [
         { class_name: "fab fa-github", link: "https://github.com/ichiidev" },
         { class_name: "fab fa-twitter", link: "https://twitter.com/ichiidev" },
+        { class_name: "fab fa-twitch", link: "https://twitch.tv/IchiiDev" },
     ],
 
 }
