@@ -6,6 +6,7 @@ const config = {
     DESCRIPTION: "Proud developer making dumb projects on GitHub, sucks at Front-End & currently working remotely for <a href=\"https://github.com/WyvernTeam\" target=\"_blank\">@WyvernTeam</a> & <a href=\"https://discord.fr\" target=\"_blank\">@discordfr</a>",
 
     BADGES: [
+        { id: "Discord Certified Moderator", image: "https://canary.discord.com/assets/955e3c9783043c7080ac202565810fc3.svg" },
         { id: "HypeSquad Events Member", image: "https://discord.com/assets/6c73f47daf179ffade99f501bfc5101b.svg" },
         { id: "HypeSquad Bravery", image: "https://discord.com/assets/64ae1208b6aefc0a0c3681e6be36f0ff.svg" },
         { id: "Early Verified Bot Developer", image: "https://discord.com/assets/45cd06af582dcd3c6b79370b4e3630de.svg" },
