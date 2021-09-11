@@ -6,12 +6,12 @@ const config = {
     DESCRIPTION: "Proud developer making dumb projects on GitHub, sucks at Front-End & currently working remotely for <a href=\"https://github.com/WyvernTeam\" target=\"_blank\">@WyvernTeam</a> & <a href=\"https://discord.fr\" target=\"_blank\">@discordfr</a>",
 
     BADGES: [
-        { id: "Discord Certified Moderator", image: "https://canary.discord.com/assets/955e3c9783043c7080ac202565810fc3.svg" },
-        { id: "HypeSquad Events Member", image: "https://discord.com/assets/6c73f47daf179ffade99f501bfc5101b.svg" },
-        { id: "HypeSquad Bravery", image: "https://discord.com/assets/64ae1208b6aefc0a0c3681e6be36f0ff.svg" },
-        { id: "Early Verified Bot Developer", image: "https://discord.com/assets/45cd06af582dcd3c6b79370b4e3630de.svg" },
-        { id: "Nitro Sub", image: "https://discord.com/assets/386884eecd36164487505ddfbac35a9d.svg" },
-        { id: "Nitro Boosting since 18 month", image: "https://discord.com/assets/f31d590e1f3629cd0b614330f4a8ee2a.svg" },
+        { id: "Discord Certified Moderator", image: "assets/img/discord_certified_mod.svg" },
+        { id: "HypeSquad Events Member", image: "assets/img/hypesquad_events.svg" },
+        { id: "HypeSquad Bravery", image: "assets/img/hypesquad_bravery.svg" },
+        { id: "Early Verified Bot Developer", image: "assets/img/early_verified_bot_dev.svg" },
+        { id: "Nitro Sub", image: "assets/img/nitro_sub.svg" },
+        { id: "Nitro Boosting since 18 month", image: "assets/img/nitro_boosting_18_months.svg" },
     ],
 
     PROJECTS: [
