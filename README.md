@@ -1,5 +1,8 @@
 # Profile
 *Self hosted VueJS based Discord like web-profile*
+<div align="center">
+   <img src="https://i.discord.fr/XCm6.png" align="center" />
+</div>
 
 ## How do I use it ?
 You'll only need a webserver like Apache or NGINX and to follow theses few steps:
@@ -16,6 +19,9 @@ $ cd profile
 2. Add assets to the `assets\img` folder
 
 You can include your profile picture to the folder as well with Discord badges and projects icons (Exemple badges and placeholders are included with the project). You can find a list of useful Discord assets in SVG here: [#ressources](#ressources)
+
+*Disclaimer:* I highly recommend not to host any of Discord assets on your own. Always consider directly using the Discord assets links (cf: [#ressources](#ressources))
+EDIT (11/09/2021): For some reason, Discord is blocking assets for third party websites so you will need to host them on your web server.
 
 3. Edit the `assets\config.js` file to manage the page's content
    
@@ -47,12 +53,15 @@ const config = {
 }
 ```
 
+### Use Gravatar for your profile picture
+You can now use a Gravatar image as your profile picture. In order to enable this feature, you'll need to have a [Gravatar email](https://fr.gravatar.com/emails/new/). Once you registered a profile picture and an email on Gravatar, just set the email you used as parameter for the `PICTURE` setting. However this will make your address public and I highly recommend using an email hash instead. To use it, simply [convert your e-mail address into a MD5 hash](https://www.md5hashgenerator.com/) and set it as parameter for the `PICTURE` setting.
+
 Here is a detailed documentation of every configuration parameters:
 
 | Key | Description |
 | ----------- | ----------- |
 | USERNAME | The user's nickname, will be used in the profile card headers & the webpage title |
-| PICTURE | The profile picture used in the profile card headers |
+| PICTURE | The profile picture used in the profile card headers [LINK / E-MAIL ADDRESS / HASH] |
 | DESCRIPTION | Short biography displayed in the profile card | 
 | BADGES | Object[] Each badges displayed in the profile card header |
 | PROJECTS | Object[] Each project displayed in the profile card |
@@ -60,10 +69,11 @@ Here is a detailed documentation of every configuration parameters:
 
 ## Ressources
 
-<p>Copyright &copy Discord 2021, I do not own any of the Discord assets and theses are hosted on Discord's website</p>
+<p>Copyright &copy Discord 2021, I do not own any of the Discord assets and these are hosted on Discord's website</p>
 
-- [`Discord Staff Badge`](https://discord.com/assets/4358ad1fb423b346324516453750f569.svg) *Disclaimer*: Impersonating Discord Staffs is bad, the repository owner or contributors cannot be held responsible for any legal confrontation with Discord.
-- [`Discord Partner Badge`](https://discord.com/assets/6203964d9d25c394a573fd4f6be36d97.svg)
+- [`Discord Staff Badge`](https://canary.discord.com/assets/c5b2473c93c340dbe540e120a86a019f.svg) *Disclaimer*: Impersonating Discord Staffs is bad, the repository owner or contributors cannot be held responsible for any legal confrontation with Discord.
+- [`Discord Certified Moderator Badge`](https://canary.discord.com/assets/955e3c9783043c7080ac202565810fc3.svg)
+- [`Discord Partner Badge`](https://discord.com/assets/0d494d94157e71dd9cc064baad0f1b70.svg)
 - [`HypeSquad Events Badge`](https://discord.com/assets/6c73f47daf179ffade99f501bfc5101b.svg)
 - [`HypeSquad Bravery Badge`](https://discord.com/assets/64ae1208b6aefc0a0c3681e6be36f0ff.svg)
 - [`HypeSquad Brilliance Badge`](https://discord.com/assets/48cf0556d93901c8cb16317be2436523.svg)

@@ -1,7 +1,7 @@
 const config = {
     
     USERNAME: "Ichii#5999",
-    PICTURE: "assets/img/profile_picture.png",
+    PICTURE: "contact@ichiidev.xyz",
 
     DESCRIPTION: "Proud developer making dumb projects on GitHub, sucks at Front-End & currently working remotely for <a href=\"https://github.com/WyvernTeam\" target=\"_blank\">@WyvernTeam</a> & <a href=\"https://discord.fr\" target=\"_blank\">@discordfr</a>",
 
