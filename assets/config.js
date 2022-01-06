@@ -11,14 +11,14 @@ const config = {
         { id: "HypeSquad Bravery", image: "assets/img/hypesquad_bravery.svg" },
         { id: "Early Verified Bot Developer", image: "assets/img/early_verified_bot_dev.svg" },
         { id: "Nitro Sub", image: "assets/img/nitro_sub.svg" },
-        { id: "Nitro Boosting since 18 month", image: "assets/img/nitro_boosting_18_months.svg" },
+        { id: "Nitro Boosting since 24 month", image: "assets/img/nitro_boosting_24_months.svg" },
     ],
 
     PROJECTS: [
         { id: "slash-fr", image: "assets/img/slashfr.webp", link: "https://discord.gg/fr", name: "Slash FR" },
         { id: "discord-fr", image: "assets/img/discordfr.svg", link: "https://discord.fr", name: "Discord.FR" },
         { id: "wyvern", image: "assets/img/wyvern.png", link: "https://wyvern.team", name: "Team Wyvern" },
-        { id: "nzxt", image: "assets/img/nzxt.png", link: "https://discord.gg/nzxt", name: "NZXT (Trainee Mod)" },
+        { id: "nzxt", image: "assets/img/nzxt.png", link: "https://discord.gg/nzxt", name: "NZXT (Community Mod)" },
     ],
 
     SOCIALS: [
